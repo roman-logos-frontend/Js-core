@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.time-box {
+    display: flex;
+    margin: 50px auto;
+    width: 250px;
+    color: black;
+    font-size: 100px;
+}
+
+
+.button-box {
+    height: 40px;
+    width: 430px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    cursor: pointer;
+    width: 115px;
+    color: white;
+    font-size: 20px;
+    background-color: red;
+    border: none;
+    border-radius: 8px;
+}
+
+.check {
+    background-color: lightcoral;
+}
+
+.puzzle-box {
+    width: 700px;
+    height: 300px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.puzzle {
+    width: 300px;
+    height: 300px;
+    background-color: lightgray;
+    box-shadow: 0 0 10px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.puz,
+.puz1 {
+    width: 75px;
+    height: 75px;
+}
+
+.modal-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(255, 255, 255);
+    z-index: -1;
+    /* background-color: rgba(46, 44, 44, 0.623); */
+}
+
+.modal-window-first {
+    display: none;
+}
+
+.modal-window-second {
+    display: none;
+}
+
+.modal-window-third{
+    display: none;
+}
+
+hr {
+    width: 100%;
+}
+
+.modal {
+    width: 500px;
+    height: 200px;
+    background-color: white;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 35px;
+    border: 1px solid;
+    border-radius: 11px;
+}
+
+.close {
+    width: 100px;
+    height: 40px;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.modalCheck {
+    width: 100px;
+    height: 40px;
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.modalClose {
+    width: 100px;
+    height: 40px;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.puz1[value="1"] {
+    background-position: 0 0;
+}
+
+.puz1[value="2"] {
+    background-position: -75px 0;
+}
+
+.puz1[value="3"] {
+    background-position: -150px 0;
+}
+
+.puz1[value="4"] {
+    background-position: -225px 0;
+}
+
+.puz1[value="5"] {
+    background-position: 0 -75px;
+}
+
+.puz1[value="6"] {
+    background-position: -75px -75px;
+}
+
+.puz1[value="7"] {
+    background-position: -150px -75px;
+}
+
+.puz1[value="8"] {
+    background-position: -225px -75px;
+}
+
+.puz1[value="9"] {
+    background-position: 0 -150px;
+}
+
+.puz1[value="10"] {
+    background-position: -75px -150px;
+}
+
+.puz1[value="11"] {
+    background-position: -150px -150px;
+}
+
+.puz1[value="12"] {
+    background-position: -225px -150px;
+}
+
+.puz1[value="13"] {
+    background-position: 0 -225px;
+}
+
+.puz1[value="14"] {
+    background-position: -75px -225px;
+}
+
+.puz1[value="15"] {
+    background-position: -150px -225px;
+}
+
+.puz1[value="16"] {
+    background-position: -225px -225px;
+}

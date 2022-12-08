@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="time-box">
+        <div class="leftNum">01</div>
+        <div>:</div>
+        <div class="rightNum">00</div>
+    </div>
+    <div class="button-box">
+        <input type="button" class="btn start" value="Start game!">
+        <input type="button" class="btn check" value="Check result" disabled>
+        <input type="button" class="btn new" value="New game">
+    </div>
+    <div class="puzzle-box">
+        <div class="puzzle ps">
+            <div class="puz"><div class="puz1"></div></div>
+            <div class="puz"><div class="puz1"></div></div>
+            <div class="puz"><div class="puz1"></div></div>
+            <div class="puz"><div class="puz1"></div></div>
+            <div class="puz"><div class="puz1"></div></div>
+            <div class="puz"><div class="puz1"></div></div>
+            <div class="puz"><div class="puz1"></div></div>
+            <div class="puz"><div class="puz1"></div></div>
+            <div class="puz"><div class="puz1"></div></div>
+            <div class="puz"><div class="puz1"></div></div>
+            <div class="puz"><div class="puz1"></div></div>
+            <div class="puz"><div class="puz1"></div></div>
+            <div class="puz"><div class="puz1"></div></div>
+            <div class="puz"><div class="puz1"></div></div>
+            <div class="puz"><div class="puz1"></div></div>
+            <div class="puz"><div class="puz1"></div></div>
+        </div>
+        <div class="puzzle pe">
+            <div class="puz"></div>
+            <div class="puz"></div>
+            <div class="puz"></div>
+            <div class="puz"></div>
+            <div class="puz"></div>
+            <div class="puz"></div>
+            <div class="puz"></div>
+            <div class="puz"></div>
+            <div class="puz"></div>
+            <div class="puz"></div>
+            <div class="puz"></div>
+            <div class="puz"></div>
+            <div class="puz"></div>
+            <div class="puz"></div>
+            <div class="puz"></div>
+            <div class="puz"></div>
+        </div>
+    </div>
+    <div class="modal-box">
+        <div class="modal-window-first">
+            <div class="modal">
+                <hr>
+                <span>It's a pity, but you lost</span>
+                <hr>
+                <input type="button" value="Close" class="close">
+            </div>
+        </div>
+        <div class="modal-window-second">
+            <div class="modal">
+                <hr>
+                <span class="checkText"></span>
+                <hr>
+                <div>
+                    <input type="button" value="Close" class="modalClose">
+                    <input type="button" value="Check" class="modalCheck">
+                </div>
+            </div>
+        </div>
+        <div class="modal-window-third">
+            <div class="modal">
+                <hr>
+                <span>Woohoo, well done, you did it!</span>
+                <hr>
+                <input type="button" value="Close" class="close">
+            </div>
+        </div>
+    </div>
+    <script src="./jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
